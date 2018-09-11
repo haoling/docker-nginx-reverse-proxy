@@ -1,5 +1,5 @@
 FROM nginx
-MAINTAINER James Thomas <james9074@gmail.com>
+MAINTAINER Haoling
 
 # Script to rewrite our nginx conf with a desired NGINX_PORT (listening port) and NGINX_HOST (target)
 ADD run_nginx.sh /app/
