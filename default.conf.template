@@ -2,7 +2,7 @@ server {
     listen ${NGINX_PORT};
     listen [::]:${NGINX_PORT};
 
-    location / {
+    location ${NGINX_LOCATION} {
         # Some of these might not be required for other services
         # proxy_pass is the most important
         proxy_set_header Host ${DOLLAR}host;
